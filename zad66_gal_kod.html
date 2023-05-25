@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="Content Type" content="text/html";charset="UTF-8"/>
+</head>
+<body>
+<p>Kod:</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: silver;
+        }
+        
+        /* Parametry dla akapitów niebędących pierwszymi w bloku */
+        p {
+            font-size: 10pt;
+        }
+        
+        /* Parametry dla pierwszych akapitów w bloku */
+        p:first-child {
+            font-size: 7mm;
+            font-style: italic;
+        }
+        
+        /* Parametry dla numerów parzystych w dzienniku */
+        p:nth-child(even) {
+            font-size: 10pt;
+        }
+        
+        /* Parametry dla numerów nieparzystych w dzienniku */
+        p:nth-child(odd) {
+            font-size: 11pt;
+        }
+        
+        /* Wygląd pierwszego DIVa */
+        div#pierwszy_galazkiewicz {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: lightgreen;
+            border: 3px solid black;
+            border-radius: 7px;
+        }
+        
+        /* Wygląd drugiego DIVa */
+        div#drugi_galazkiewicz {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: lightblue;
+            border: 5px solid navy;
+            border-radius: 7px;
+        }
+        
+        /* Wygląd trzeciego DIVa */
+        div#trzeci_galazkiewicz{
+            background-color: pink;
+            border: 7px solid purple;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div id="pierwszy_galazkiewicz">
+        Treść pierwszego DIVa
+    </div>
+    
+    <div id="drugi_galazkiewicz">
+        Treść drugiego DIVa
+    </div>
+    
+    <div id="trzeci_galazkiewicz">
+        Treść trzeciego DIVa
+    </div>
+    
+    <p>Parametr dla akapitów niebędących pierwszymi w bloku</p>
+    <p>Numer parzysty w dzienniku</p>
+    <p>Numer nieparzysty w dzienniku</p>
+</body>
+</html>
+
+Kamil Galazkiewicz
+</textarea>
+</body>
+</html>
